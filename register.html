@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="w-full h-full flex items-center justify-center flex-wrap">
+        <div class="w-[27.5rem] mx-auto px-12 py-14 bg-white shadow-lg rounded-md flex flex-col">
+
+            <a href="#" class="mb-12 flex justify-center mt-10">
+                <img src="https://d3ki9tyy5l5ruj.cloudfront.net/obj/6c76122a923c696febd26d2a843aa6daf960a3df/logo.png" class="h-6" alt="">
+            </a>
+
+            <button class="flex h-12 mb-4 px-4 text-gray-600 items-center justify-center border border-gray-300 rounded-md transition-all hover:bg-gray-50">
+                <svg class="mr-auto" width="18" height="18" viewBox="0 0 18 18"><path d="M17.64,9.20454545 C17.64,8.56636364 17.5827273,7.95272727 17.4763636,7.36363636 L9,7.36363636 L9,10.845 L13.8436364,10.845 C13.635,11.97 13.0009091,12.9231818 12.0477273,13.5613636 L12.0477273,15.8195455 L14.9563636,15.8195455 C16.6581818,14.2527273 17.64,11.9454545 17.64,9.20454545 L17.64,9.20454545 Z" fill="#4285F4"></path><path d="M9,18 C11.43,18 13.4672727,17.1940909 14.9563636,15.8195455 L12.0477273,13.5613636 C11.2418182,14.1013636 10.2109091,14.4204545 9,14.4204545 C6.65590909,14.4204545 4.67181818,12.8372727 3.96409091,10.71 L0.957272727,10.71 L0.957272727,13.0418182 C2.43818182,15.9831818 5.48181818,18 9,18 L9,18 Z" fill="#34A853"></path><path d="M3.96409091,10.71 C3.78409091,10.17 3.68181818,9.59318182 3.68181818,9 C3.68181818,8.40681818 3.78409091,7.83 3.96409091,7.29 L3.96409091,4.95818182 L0.957272727,4.95818182 C0.347727273,6.17318182 0,7.54772727 0,9 C0,10.4522727 0.347727273,11.8268182 0.957272727,13.0418182 L3.96409091,10.71 L3.96409091,10.71 Z" fill="#FBBC05"></path><path d="M9,3.57954545 C10.3213636,3.57954545 11.5077273,4.03363636 12.4404545,4.92545455 L15.0218182,2.34409091 C13.4631818,0.891818182 11.4259091,0 9,0 C5.48181818,0 2.43818182,2.01681818 0.957272727,4.95818182 L3.96409091,7.29 C4.67181818,5.16272727 6.65590909,3.57954545 9,3.57954545 L9,3.57954545 Z" fill="#EA4335"></path></svg>
+                <span class="mr-auto">Login with Google</span>
+            </button>
+
+            <div class="border-b border-gray-200 flex justify-center mb-10">
+                <span class="bg-white px-4 text-gray-300 relative top-3">or</span>
+            </div>
+
+            <ul class="grid gap-y-8">
+                <li class="flex flex-col text-xs text-gray-500">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" class="mt-2 h-9 border border-gray-300 rounded outline-none px-3 text-black focus:border-gray-400" />
+                </li>
+                <li class="flex flex-col text-xs text-gray-500">
+                    <label for="email">Full name</label>
+                    <input type="text" name="username" id="username" class="mt-2 h-9 border border-gray-300 rounded outline-none px-3 text-black focus:border-gray-400" />
+                </li>
+                <li class="flex flex-col text-xs text-gray-500">
+                    <label for="email">Password</label>
+                    <label class="relative mt-2">
+                        <input type="password" name="password" id="password" class="h-9 border w-full border-gray-300 rounded outline-none px-3 text-black focus:border-gray-400" />
+                        <span class="absolute cursor-pointer top-0 right-0 h-full w-9 text-gray-400 hover:text-gray-600 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" class="fill-current"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c3.79 0 7.17 2.13 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5C4.83 8.13 8.21 6 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5c1.38 0 2.5 1.12 2.5 2.5S13.38 14 12 14s-2.5-1.12-2.5-2.5S10.62 9 12 9m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"/></svg>
+                            <!-- çizgili göz ikonu, sen ayarlarsın gardaşım <3 -->
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 24 24" width="20" class="fill-current"><path d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none"/><path d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"/></svg> -->
+                        </span>
+                    </label>
+                    <div class="mt-2 text-gray-400">
+                        Password must be 8 characters or longer.
+                    </div>
+                </li>
+                <li class="flex flex-col text-xs text-gray-500">
+                    <label for="email">What kind of work do you do?</label>
+                    <div class="relative group">
+                        <button class="mt-2 h-9 border border-gray-300 rounded outline-none px-3 pr-2 text-gray-600 focus:border-gray-400 flex justify-between items-center text-left w-full">
+                            Select a type of work similar to yours
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7 10l5 5 5-5H7z"/></svg>
+                        </button>
+                        <nav class="absolute rounded-md top-full left-0 w-full max-h-32 overflow-auto bg-white shadow-md transition-all opacity-0 invisible group-focus-within:opacity-100 group-focus-within:visible">
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Marketing</button>
+                            <button class="h-8 hover:bg-gray-100 !bg-primary text-white w-full px-4 flex items-center">Product</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Design</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Operations</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Sales</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Customer success</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">HR</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">IT</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">Engineering</button>
+                            <button class="h-8 hover:bg-gray-100 w-full px-4 flex items-center">General project management</button>
+                        </nav>
+                    </div>
+                </li>
+                <li>
+                    <button class="w-full h-9 flex items-center justify-center rounded bg-primary text-sm text-white">
+                        Sign up
+                    </button>
+                </li>
+                <li class="text-sm text-center text-gray-500">
+                   You have an account?
+                    <a href="login.html" class="text-blue-400 hover:underline">Sign in</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    
+</body>
+</html>
